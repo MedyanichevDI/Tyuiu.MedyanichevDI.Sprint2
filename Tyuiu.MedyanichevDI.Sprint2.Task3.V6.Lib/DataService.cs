@@ -9,7 +9,7 @@ namespace Tyuiu.MedyanichevDI.Sprint2.Task3.V6.Lib
             double y;
             if (x > 0)
             {
-                y = x + (Math.Pow(x - 15 / x - 10, x - 3));
+                y = x + Math.Pow((x - 15) / (x - 10), x - 3);
             }
             else if (x == 0)
             {

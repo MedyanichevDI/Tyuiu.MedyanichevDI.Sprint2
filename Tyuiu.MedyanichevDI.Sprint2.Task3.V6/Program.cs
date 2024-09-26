@@ -30,7 +30,7 @@ namespace Tyuiu.MedyanichevDI.Sprint2.Task3.V6
 
             //string k;
 
-            Console.WriteLine("Введите значение предложение: X");
+            Console.WriteLine("Введите значение предложение X: ");
             double x = Convert.ToDouble(Console.ReadLine());
 
 
