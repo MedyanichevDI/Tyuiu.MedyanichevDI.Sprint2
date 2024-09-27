@@ -6,7 +6,7 @@ namespace Tyuiu.MedyanichevDI.Sprint2.Task4.V4.Lib
     {
         public double Calculate(double x, double y)
         {
-            double z = Math.Round((x + 2 < y) ? Math.Sin(x) + 2 * y: Math.Cos(y)+2*x*y);
+            double z = Math.Round((x + 2 < y) ? Math.Sin(x) + 2 * y: Math.Cos(y)+2*x*y,3);
             return z;
         }
     }
